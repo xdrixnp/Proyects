@@ -1,0 +1,100 @@
+@font-face {
+    font-family: oldschool;
+    src: url(college.ttf);
+}
+
+body {
+    background-image: url("fondo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: oldschool;
+    font-size: 30px;
+    font-weight: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img {
+    width: 300px;
+}
+
+.div-llave-num {
+    font-size: 40px;
+    align-content: center;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin: 30px  100px;
+}
+
+.form-div {
+    padding: 10px 30px 35px 40px;
+    margin: 15px;
+    background: #50e2e291;
+    border-radius: 50px;
+    color: #fff;
+    text-shadow: 0 0 10px #000, 0 0 10px #000;
+    box-shadow: 0 0 10px #000;
+    user-select: none;
+}
+
+
+.form-div:hover {
+    background: #357e7e91;
+    text-shadow: 0 0 10px #fff;
+    box-shadow: 0 0 10px #fff, 0 0 10px #fff, 0 0 10px #fff;
+    transition:  all 0.2s;
+}
+
+.form-div:focus {
+    background: #357e7e91;
+    text-shadow: 0 0 10px #fff;
+    box-shadow: 0 0 10px #fff, 0 0 10px #fff, 0 0 10px #fff;
+}
+
+h1 {
+    color: #eee;
+    text-shadow: 0 0 10px #000, 0 0 10px #000;
+}
+
+b {
+    color: rgb(58, 216, 58);
+}
+
+p {
+    margin: 0;
+    padding: 10px 0 ;
+}
+
+.botonDeCompra {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 400px;
+    height: 100px;
+    background: #50e2e291;
+    outline: none;
+    border: none;
+    border-radius: 35px;
+    font-size: 35px;
+    color: #fff;
+    text-shadow: 0 0 10px #000, 0 0 10px #000;
+    font-weight: 200px;
+}
+
+.botonDeCompra:hover {
+    background: #357e7e91;
+    text-shadow: 0 0 10px #fff;
+    box-shadow: 0 0 10px #fff, 0 0 10px #fff, 0 0 10px #fff;
+    transition: all 0.2s;
+
+}
+
+.modelos {
+    color: #b4b4b4;
+}
